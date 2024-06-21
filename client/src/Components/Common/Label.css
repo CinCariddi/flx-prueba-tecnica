@@ -1,0 +1,10 @@
+.user-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgba(245, 34, 45, 1);
+    font-size: 12px;
+}

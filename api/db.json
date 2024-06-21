@@ -449,6 +449,15 @@
       "email": "grace.allen@example.com",
       "status": "active",
       "age": 32
+    },
+    {
+      "username": "usuario52",
+      "name": "prueba",
+      "lastname": "prueba",
+      "email": "prueba@mail.com",
+      "status": "active",
+      "age": "19",
+      "id": 51
     }
   ]
 }

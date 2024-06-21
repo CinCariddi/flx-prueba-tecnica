@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.pagination ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.pagination li {
+    display: flex;
+}
+
+.pagination button {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.pagination .active button {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(24, 144, 255, 1);
+    border-color: rgba(24, 144, 255, 1);
+}
+
+.pagination .dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}

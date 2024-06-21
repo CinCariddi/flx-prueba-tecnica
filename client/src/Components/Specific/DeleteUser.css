@@ -1,0 +1,32 @@
+.delete-user-body {
+    display: flex; 
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 20px
+}
+
+.delete-user-body p {
+    color: rgba(226, 51, 54, 1);
+    padding-left: 4px
+}
+
+.delete-user {
+    border: none; 
+    background: rgba(255, 255, 255, 1);
+    color: rgba(24, 144, 255, 1)
+}
+
+.delete-user-btn-container {
+    border-top: 1px solid rgba(217, 217, 217, 0.3);;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.delete-user-btn-container button {
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 12px;
+}
